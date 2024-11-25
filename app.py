@@ -3,6 +3,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import requests
 import pyttsx3
 import streamlit as st
+import webbrowser
 
 def text_to_speech(text):
     # Initialize the TTS engine
